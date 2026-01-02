@@ -30,6 +30,8 @@ Repozytorium używa branchy jako migawek kodu po każdej lekcji:
 - `lesson-1` — szkielet projektu i ekran powitalny
 - `lesson-2` — JSX, komponenty i propsy (`TripCard`, `RatingStars`)
 - `lesson-3` - State, hooks (useState), oraz interaktywny formularz dodawania wycieczki.
+- `lesson-4` - Stylowanie (`StyleSheet`) i układy Flexbox.
+- `lesson-5` - Nawigacja z Expo Router (Stack + Tabs).
 
 *(kolejne branche będą dodawane w trakcie kursu)*
 

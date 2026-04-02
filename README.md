@@ -1,7 +1,7 @@
 # TravelSnap
 
-Projekt przewodni kursu **Mobilne języki programowania — React Native z Expo**.
-TravelSnap to aplikacja — dziennik podróży, rozwijana na żywo, lekcja po lekcji.
+Projekt przewodni kursu **Mobilne języki programowania - React Native z Expo**.
+TravelSnap to aplikacja - dziennik podróży, rozwijana na żywo, lekcja po lekcji.
 
 ## 📚 Kontekst kursu
 
@@ -26,7 +26,7 @@ TravelSnap to aplikacja — dziennik podróży, rozwijana na żywo, lekcja po le
 
 Repozytorium używa branchy jako migawek kodu po każdej lekcji:
 
-- `master` / `main` — najaktualniejszy kod
+- `master` / `main` - najaktualniejszy kod
 - `lesson-1` — szkielet projektu i ekran powitalny
 - `lesson-2` — JSX, komponenty i propsy (`TripCard`, `RatingStars`)
 - `lesson-3` - State, hooks (useState), oraz interaktywny formularz dodawania wycieczki.

@@ -9,6 +9,7 @@ import EmptyState from '@/components/ui/EmptyState';
 import TripStats from '@/components/TripStats';
 import { Colors } from '@/constants/Colors';
 import type { Trip, TripData } from '@/types/trip';
+import { Link } from 'expo-router';
 
 export default function HomeScreen() {
   const [trips, setTrips] = useState<Trip[]>([]);
@@ -37,14 +38,9 @@ export default function HomeScreen() {
           />
         ) : (
           trips.map((trip) => (
-            <TripCard
-              key={trip.id}
-              title={trip.title}
-              destination={trip.destination}
-              date={trip.date}
-              rating={trip.rating}
-              onDelete={() => handleDeleteTrip(trip.id)}
-            />
+            <Link key={trip.id} href={{ pathname: '/trip/[id]', params: { id: trip.id, title: trip.title, destination: trip.destination, date: trip.date,rating: trip.rating.toString(),},}} asChild>
+            <TripCard title={trip.title} destination={trip.destination} date={trip.date} rating={trip.rating} onDelete={() => handleDeleteTrip(trip.id)} />
+            </Link>
           ))
         )}
       </ScrollView>
